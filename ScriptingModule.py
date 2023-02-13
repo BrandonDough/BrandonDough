@@ -133,4 +133,17 @@ data = json.dumps(employee_data)
 ## without string
 data = json.dump(employee_data)
 '''
+# GIT Commands
+"""
+git init
+git pull
+git fetch
+git add
+git commit -m "MESSAGE"
+git push
+git remote add origin https://github.com/YOUR-USERNAME/YOUR-REPOSITORY-NAME.git
+
+"""
+
+#LIST
 
