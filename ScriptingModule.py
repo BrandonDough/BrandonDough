@@ -135,14 +135,36 @@ data = json.dump(employee_data)
 '''
 # GIT Commands
 """
+CREATING ADDING:
+cd redo 
 git init
 git pull
 git fetch
-git add
+
+STATUS CHECK:
+git status
+git branch
+git branch -d (delete)
+
+COMMITTING REPO:
+git add --all *
 git commit -m "MESSAGE"
 git push
 git remote add origin https://github.com/YOUR-USERNAME/YOUR-REPOSITORY-NAME.git
+git push [variable name] master  
 
+OTHERS:
+git clean 
+git merge
+git merge master
+git log
+git revert - remove commit
+git checkout anotherBranch
+git reflog
+git revert yellowName - removes commit
+git reset --hard (optional)
+git rm (delete files)
+git show
 """
 
 #LIST
