@@ -180,8 +180,10 @@ print(count_bits(a))
 '''
 
 #LIST
+'''
 intList  = [0,1,2,3,4,5]
 p/rint('intList: ',intList)
 print('intList last thing on list: ',intList[::-1])
 print('intList last thing on list: ',intList[-1::])
 print('intList last thing on list: ',intList[:-1:])
+'''
