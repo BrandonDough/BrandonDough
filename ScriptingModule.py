@@ -130,7 +130,7 @@ print(data)
 
 ## string
 data = json.dumps(employee_data)
-## without string
+## without string5
 data = json.dump(employee_data)
 '''
 # GIT Commands
@@ -166,8 +166,22 @@ git reset --hard (optional)
 git rm (delete files)
 git show
 """
+'''
+def count_bits(x):
+    num_bits = 0
+    while x:
+        num_bits += x & 1
+        x >>= 1
+    return num_bits
+
+a = 110
+
+print(count_bits(a))
+'''
 
 #LIST
-
-
-
+intList  = [0,1,2,3,4,5]
+p/rint('intList: ',intList)
+print('intList last thing on list: ',intList[::-1])
+print('intList last thing on list: ',intList[-1::])
+print('intList last thing on list: ',intList[:-1:])
